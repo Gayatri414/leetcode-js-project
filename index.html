@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h> hii</h>
+    <div class ="container">
+        <h1>LeetMatric</h1>
+        <div class="user-container">
+        <p>enter your user name below:</p>
+        <div class=" user_input-container">
+            <input type="text" placeholder="enter your username here" id="user-input">
+            <button id="search-btn"> search </button>
+        </div>
+
+    </div>
+    <div class="stats-container">
+<div class="progress">
+    <div class="progress-item circle">
+        <div class="easy-progress">
+            <span id="easy-label">
+Easy
+            </span>
+        </div>
+    </div>
+    
+    <div class="progress-item circle">
+        <div class="medium-progress">
+        <span id="medium-label">
+            Medium
+        </span>
+    </div>
+    </div>
+    <div class="progress-item circle">
+        <div class="hard-progress">
+        <span id="hard-label">
+            Hard
+        </span>
+        </div>
+    </div>
+</div>
+<div class="stats-card">
+    <!--directly populate from js-->
+</div>
+    </div>
+    </div>
+    <script src="index.js"> </script>
 </body>
 </html>
